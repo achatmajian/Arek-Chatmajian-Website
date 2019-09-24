@@ -1,0 +1,139 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Navigation */
+
+.navbar {
+  border: #ff6633 1px solid;
+}
+
+.arek {
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: 600;
+  color: #ff6633;
+  margin-left: 40px;
+  
+}
+
+.navbar-menu {
+  display: flex;
+  justify-content: flex-end;
+  margin-left: 55%;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-weight: 300;
+
+}
+
+.button.is-primary {
+  background-color: #ff6633;
+}
+
+.button.is-primary:hover {
+  background-color: #ff8c66;
+}
+
+/* Hero */
+
+.hero-container {
+  width: 1440px;
+  height: 530px;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.hero-headline {
+width: 489px;
+  height: 44px;
+  font-family: Montserrat;
+  font-size: 36px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #000000;
+  display: flex;
+  align-self: center;
+  margin-top: 40px;
+}
+
+.hero-subtext {
+  width: 324px;
+  height: 18px;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #000000;
+  display: flex;
+  align-self: center;
+  margin-top: 20px;
+}
+
+.hero-illustration {
+  width: 691px;
+  height: 362px;
+  display: flex;
+  align-self: center;
+  margin-top: 40px;
+}
+
+/* About */
+
+.about-container {
+  width: 1440px;
+  height: 459px;
+  background-color: #ff6633;
+  margin-top: -13px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.about-title { 
+  height: 29px;
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+  display: flex;
+  align-self: center;
+  margin-top: -50px;
+
+}
+
+.about-text {
+  width: 588px;
+  height: 92px;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+  display: flex;
+  align-self: center;
+  margin-top: 20px;
+}
+
+/* Services */
